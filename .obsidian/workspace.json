@@ -11,14 +11,17 @@
             "id": "3964a8af6a820d05",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Anime.md",
-                "mode": "source",
-                "source": false
+                "file": "Aniparser.canvas",
+                "viewState": {
+                  "x": 342,
+                  "y": -367.5587368421051,
+                  "zoom": -0.3225354175824557
+                }
               },
-              "icon": "lucide-file",
-              "title": "Anime"
+              "icon": "lucide-layout-dashboard",
+              "title": "Aniparser"
             }
           }
         ]
@@ -195,6 +198,8 @@
   },
   "active": "3964a8af6a820d05",
   "lastOpenFiles": [
+    "Watching list.md",
+    "test.md",
     "Aniparser.canvas",
     "Anime.md",
     "Books.md",
@@ -210,7 +215,6 @@
     "Templates/book template.md",
     "notes/Tauri.md",
     "trunner.md",
-    "Watching list.md",
     "projects.md",
     "Global Projects.md",
     "Untitled",
@@ -226,7 +230,6 @@
     "_hidden",
     "aniparser.md",
     "notes/Notes for programming.md",
-    "notes/WebKitGTK.md",
     "notes",
     "Projects"
   ]
