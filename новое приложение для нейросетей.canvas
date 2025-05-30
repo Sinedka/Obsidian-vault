@@ -1,8 +1,9 @@
 {
 	"nodes":[
-		{"id":"0e301851c083651a","x":-1051,"y":-960,"width":250,"height":60,"type":"text","text":"1) выбор где писать"},
-		{"id":"80cd30c4f6e19dc7","x":-640,"y":-1330,"width":400,"height":400,"type":"file","file":"notes/React.md"},
-		{"id":"99d8de542237b835","x":-640,"y":-890,"width":400,"height":400,"type":"file","file":"notes/Tauri.md"}
+		{"id":"0e301851c083651a","type":"text","text":"1) выбор где писать","x":-1051,"y":-960,"width":250,"height":60},
+		{"id":"80cd30c4f6e19dc7","type":"file","file":"notes/React.md","x":-640,"y":-1330,"width":400,"height":400},
+		{"id":"99d8de542237b835","type":"file","file":"notes/Tauri.md","x":-640,"y":-890,"width":400,"height":400},
+		{"id":"254f43eec87a7066","type":"text","text":"![Anime](Anime)","x":-1349,"y":-1340,"width":488,"height":260}
 	],
 	"edges":[
 		{"id":"c97e5fe22749083d","fromNode":"0e301851c083651a","fromSide":"right","toNode":"80cd30c4f6e19dc7","toSide":"left"},
