@@ -11,17 +11,14 @@
             "id": "3964a8af6a820d05",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Aniparser.canvas",
-                "viewState": {
-                  "x": 342,
-                  "y": -228,
-                  "zoom": -0.3225354175824557
-                }
+                "file": "Anime.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Aniparser"
+              "icon": "lucide-file",
+              "title": "Anime"
             }
           }
         ]
@@ -198,8 +195,8 @@
   },
   "active": "3964a8af6a820d05",
   "lastOpenFiles": [
-    "Books.md",
     "Aniparser.canvas",
+    "Books.md",
     "test.md",
     "Anime.md",
     "Watching list.md",
