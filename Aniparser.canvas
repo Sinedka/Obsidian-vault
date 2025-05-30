@@ -1,7 +1,7 @@
 {
 	"nodes":[
-		{"id":"ac2da79148eef302","type":"text","text":"[GitHub link](https://github.com/sinedka/aniparser)\n[AUR link](https://aur.archlinux.org/packages/aniparser)","x":-376,"y":-256,"width":196,"height":56,"color":"5"},
-		{"id":"f46e25d3eee769f8","type":"text","text":"``` dataviewjs\nconst url = \"https://raw.githubusercontent.com/sinedka/aniparser/master/README.md\"\n\nconst response = await fetch(url)\nconst data = await response.text()\n\nlet pg = dv.current();\n\ndv.paragraph(data)\n```\n","x":20,"y":-768,"width":1100,"height":1080,"color":"3"}
+		{"id":"f46e25d3eee769f8","type":"text","text":"``` dataviewjs\nconst url = \"https://raw.githubusercontent.com/sinedka/aniparser/master/README.md\"\n\nconst response = await fetch(url)\nconst data = await response.text()\n\nlet pg = dv.current();\n\ndv.paragraph(data)\n```","x":-140,"y":-940,"width":1100,"height":1080,"color":"3"},
+		{"id":"ac2da79148eef302","type":"text","text":"[GitHub link](https://github.com/sinedka/aniparser)\n[AUR link](https://aur.archlinux.org/packages/aniparser)","x":-440,"y":-440,"width":196,"height":80,"color":"5"}
 	],
 	"edges":[
 		{"id":"a5d163003726f33b","fromNode":"ac2da79148eef302","fromSide":"right","toNode":"f46e25d3eee769f8","toSide":"left"}
