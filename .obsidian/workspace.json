@@ -11,10 +11,14 @@
             "id": "e4d070bd69154f21",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -173,7 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 457.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,12 +192,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f2a17ae92b0736a2",
+  "active": "e4d070bd69154f21",
   "lastOpenFiles": [
+    "test.md",
     "Aniparser.canvas",
     "Books.md",
     "Anime.md",
-    "test.md",
     "Watching list.md",
     "About me.md",
     "2025-05-31.md",
