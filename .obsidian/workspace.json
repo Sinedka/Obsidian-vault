@@ -16,7 +16,7 @@
                 "file": "Aniparser.canvas",
                 "viewState": {
                   "x": 342,
-                  "y": -367.5587368421051,
+                  "y": -228,
                   "zoom": -0.3225354175824557
                 }
               },
@@ -198,11 +198,11 @@
   },
   "active": "3964a8af6a820d05",
   "lastOpenFiles": [
-    "Watching list.md",
-    "test.md",
-    "Aniparser.canvas",
-    "Anime.md",
     "Books.md",
+    "Aniparser.canvas",
+    "test.md",
+    "Anime.md",
+    "Watching list.md",
     "About me.md",
     "2025-05-31.md",
     "Алгоритмы построение и анализ.md",
