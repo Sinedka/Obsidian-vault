@@ -1,0 +1,260 @@
+{
+  "main": {
+    "id": "5660a103a3f3bf35",
+    "type": "split",
+    "children": [
+      {
+        "id": "3fe587b0f40ed7f9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3964a8af6a820d05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Books"
+            }
+          },
+          {
+            "id": "4ffefdac05d45160",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Aniparser.canvas",
+                "viewState": {
+                  "x": 231.0490947368418,
+                  "y": -237.30391578947328,
+                  "zoom": -0.3225354175824557
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Aniparser"
+            }
+          },
+          {
+            "id": "189897c7593b1da3",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "586ee008ab1f1755",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbe3b1f0af3f7fd7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6da6360c9a197080",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f852c774368778df",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "f2a17ae92b0736a2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3a2d19b55acb740b",
+    "type": "split",
+    "children": [
+      {
+        "id": "b292218e461e0fbf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b9031a6f62ad2f94",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Aniparser.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Aniparser"
+            }
+          },
+          {
+            "id": "6d23d06fba89c2d7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Aniparser.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Aniparser"
+            }
+          },
+          {
+            "id": "e82f64341a9f5eae",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0c0caf64227b7c0f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Aniparser.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Aniparser"
+            }
+          },
+          {
+            "id": "39cccc84c0d7a6de",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "9d45f68d923a20c4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 654.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "f2a17ae92b0736a2",
+  "lastOpenFiles": [
+    "Aniparser.canvas",
+    "Books.md",
+    "новое приложение для нейросетей.canvas",
+    "Excalidraw/Drawing 2025-05-31 00.31.28.excalidraw.md",
+    "notes/React.md",
+    "Excalidraw/Drawing 2025-05-31 00.32.16.excalidraw.md",
+    "Excalidraw",
+    "Templates/book template.md",
+    "notes/Tauri.md",
+    "Алгоритмы построение и анализ.md",
+    "Anime.md",
+    "trunner.md",
+    "Watching list.md",
+    "projects.md",
+    "About me.md",
+    "Global Projects.md",
+    "Untitled",
+    "Programming.md",
+    "Templates",
+    "Pasted image 20250530235934.png",
+    "_hidden/Aniparser Readme.md",
+    "Templates/GitHub Import.md",
+    "Aniparser Readme.md",
+    "Aniparser.md",
+    "templates/ainiparser readme.md",
+    "templates/github import.md.md",
+    "_hidden",
+    "aniparser.md",
+    "notes/Notes for programming.md",
+    "notes/Frameworks for web.md",
+    "notes/WebKitGTK.md",
+    "svim.md",
+    "notes",
+    "Projects"
+  ]
+}
