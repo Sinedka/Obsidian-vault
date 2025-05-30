@@ -13,26 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books.md",
+                "file": "Anime.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Books"
-            }
-          },
-          {
-            "id": "4ffefdac05d45160",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Anime"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -204,14 +193,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4ffefdac05d45160",
+  "active": "3964a8af6a820d05",
   "lastOpenFiles": [
-    "2025-05-31.md",
     "Aniparser.canvas",
     "Anime.md",
+    "Books.md",
+    "About me.md",
+    "2025-05-31.md",
     "Алгоритмы построение и анализ.md",
     "notes/Frameworks for web.md",
-    "Books.md",
     "новое приложение для нейросетей.canvas",
     "Excalidraw/Drawing 2025-05-31 00.31.28.excalidraw.md",
     "notes/React.md",
@@ -222,7 +212,6 @@
     "trunner.md",
     "Watching list.md",
     "projects.md",
-    "About me.md",
     "Global Projects.md",
     "Untitled",
     "Programming.md",
