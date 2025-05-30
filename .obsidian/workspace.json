@@ -42,10 +42,14 @@
             "id": "189897c7593b1da3",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Anime.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Anime"
             }
           }
         ],
@@ -220,9 +224,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f2a17ae92b0736a2",
+  "active": "189897c7593b1da3",
   "lastOpenFiles": [
+    "Алгоритмы построение и анализ.md",
     "Aniparser.canvas",
+    "notes/Frameworks for web.md",
     "Books.md",
     "новое приложение для нейросетей.canvas",
     "Excalidraw/Drawing 2025-05-31 00.31.28.excalidraw.md",
@@ -231,7 +237,6 @@
     "Excalidraw",
     "Templates/book template.md",
     "notes/Tauri.md",
-    "Алгоритмы построение и анализ.md",
     "Anime.md",
     "trunner.md",
     "Watching list.md",
@@ -251,7 +256,6 @@
     "_hidden",
     "aniparser.md",
     "notes/Notes for programming.md",
-    "notes/Frameworks for web.md",
     "notes/WebKitGTK.md",
     "svim.md",
     "notes",
