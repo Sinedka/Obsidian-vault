@@ -3,8 +3,7 @@
 		{"id":"0e301851c083651a","type":"text","text":"1) выбор где писать","x":-1051,"y":-960,"width":250,"height":60},
 		{"id":"80cd30c4f6e19dc7","type":"file","file":"notes/React.md","x":-640,"y":-1330,"width":400,"height":400},
 		{"id":"99d8de542237b835","type":"file","file":"notes/Tauri.md","x":-640,"y":-890,"width":400,"height":400},
-		{"id":"254f43eec87a7066","type":"text","text":"<div id=\"readme-content\">Загрузка...</div>\n\n<script>\nasync function loadReadme() {\n  const url = \"https://raw.githubusercontent.com/username/project/main/README.md\";\n  const response = await fetch(url);\n  const markdown = await response.text();\n\n  // Преобразуем Markdown в HTML\n  const html = marked.parse(markdown);\n  document.getElementById(\"readme-content\").innerHTML = html;\n}\n\n// Загружаем README при загрузке страницы\nloadReadme();\n</script>\n\n<!-- подключим Markdown-парсер -->\n<script src=\"https://cdn.jsdelivr.net/npm/marked/marked.min.js\"></script>","x":-2040,"y":-2240,"width":989,"height":1550},
-		{"id":"7c4a87438ba11180","x":-971,"y":-2130,"width":891,"height":470,"type":"text","text":"```embedmd\nurl: https://raw.githubusercontent.com/user/project/main/README.md```"}
+		{"id":"7c4a87438ba11180","type":"text","text":"```embedmd\nurl: https://raw.githubusercontent.com/user/project/main/README.md```","x":-971,"y":-2130,"width":891,"height":470}
 	],
 	"edges":[
 		{"id":"c97e5fe22749083d","fromNode":"0e301851c083651a","fromSide":"right","toNode":"80cd30c4f6e19dc7","toSide":"left"},
