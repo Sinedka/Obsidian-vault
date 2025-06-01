@@ -7,6 +7,287 @@ tags: [excalidraw]
 ==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 
 
+
+# test
+# Магическое число
+
+  
+
+Магическое число является самой важной частью
+
+загрузчика. Без него BIOS не имел бы представления
+
+о том, с каких дисков он может (или не может) загружаться.
+
+Это потенциально могло бы привести к повреждению или потере
+
+данных, или даже к возможному отказу оборудования.
+
+  
+
+## 0xAA55
+
+  
+
+Чтобы предотвратить это, BIOS ищет `0xAA55` в
+
+конце загрузочного сектора. "Сектор" определяется
+
+BIOS как первые 512 байт каждого диска. Это означает,
+
+что у нас есть только 512 байт для хранения всего кода
+
+загрузчика! Очевидно, современный загрузчик более сложен,
+
+чем это, но мы разберемся с этим позже.
+
+  
+
+## Сборка
+
+  
+
+Прежде чем мы начнем, убедитесь, что вы можете собрать
+
+пример `boot.asm`. Вы должны иметь возможность сделать это
+
+с помощью команды:
+
+  
+
+```sh
+
+nasm boot.asm
+
+```
+
+  
+
+Затем вы должны иметь возможность загрузить пример в
+
+QEMU и запустить его следующей командой:
+
+  
+
+```sh
+
+qemu-system-x86_64 -drive format=raw,file=boot
+
+```
+
+  
+
+Поначалу он не будет делать много, но это нормально!
+
+Пока QEMU не вылетает и экран не мерцает, загрузчик
+
+работает как ожидается. Когда вы закончите писать свой,
+
+он должен выглядеть так же.
+
+  
+
+## Первая загрузка
+
+  
+
+На данный момент наш загрузчик будет самой простой программой,
+
+известной человеку: бесконечным циклом. В NASM есть несколько
+
+специальных символов, которые мы можем использовать здесь:
+
+`$` и `$$`.
+
+  
+
+В NASM `$` заменяется адресом **текущей инструкции** во время
+
+сборки. Аналогично, `$$` заменяется адресом **предыдущей
+
+инструкции**.
+
+  
+
+Прежде чем двигаться дальше, попробуйте реализовать этот простой
+
+загрузочный сектор самостоятельно. Посмотрите, сможете ли вы
+
+заставить его работать с магическим числом.
+
+  
+
+Это означает, что для создания бесконечного цикла мы можем просто
+
+использовать простую инструкцию
+
+  
+
+```asm
+
+jmp $
+
+```
+
+  
+
+(или прыжок на текущую инструкцию) как нашу единственную
+
+инструкцию. Затем нам нужно будет заполнить остальную часть
+
+нашего загрузочного сектора и записать магическое число.
+
+  
+
+## Сырые данные
+
+  
+
+Чтобы заставить магическое число работать, нам нужно
+
+иметь возможность записывать сырые данные непосредственно в файл.
+
+В NASM есть несколько функций для этого:
+
+  
+
+- `db` (Define Byte - Определить байт)
+
+- `dw` (Define Word - Определить слово)
+
+- `dd` (Define Doubleword - Определить двойное слово)
+
+- `dq` (Define Quadword - Определить четверное слово)
+
+  
+
+Эти функции записывают сырые данные длиной 8,
+
+16, 32 и 64 бита соответственно. (Это также
+
+1, 2, 4 и 8 байт). Поскольку магическое число имеет длину
+
+16 бит, мы будем использовать `dw` для его определения:
+
+  
+
+```asm
+
+dw 0xAA55
+
+```
+
+  
+
+Теперь нам нужно заполнить остальную часть файла нулевыми
+
+байтами, чтобы убедиться, что наше магическое число является
+
+последними двумя байтами загрузочного сектора. Вы можете найти
+
+команду [times](https://nasm.us/doc/nasmdoc3.html) особенно
+
+полезной для этого. Если вы застряли, есть подробное объяснение
+
+в исходном файле, так что просто посмотрите там!
+
+  
+
+Удачи!
+# Магическое число
+
+Магическое число является самой важной частью
+загрузчика. Без него BIOS не имел бы представления
+о том, с каких дисков он может (или не может) загружаться.
+Это потенциально могло бы привести к повреждению или потере
+данных, или даже к возможному отказу оборудования.
+
+## 0xAA55
+
+Чтобы предотвратить это, BIOS ищет `0xAA55` в
+конце загрузочного сектора. "Сектор" определяется
+BIOS как первые 512 байт каждого диска. Это означает,
+что у нас есть только 512 байт для хранения всего кода
+загрузчика! Очевидно, современный загрузчик более сложен,
+чем это, но мы разберемся с этим позже.
+
+## Сборка
+
+Прежде чем мы начнем, убедитесь, что вы можете собрать
+пример `boot.asm`. Вы должны иметь возможность сделать это
+с помощью команды:
+
+```sh
+nasm boot.asm
+```
+
+Затем вы должны иметь возможность загрузить пример в
+QEMU и запустить его следующей командой:
+
+```sh
+qemu-system-x86_64 -drive format=raw,file=boot
+```
+
+Поначалу он не будет делать много, но это нормально!
+Пока QEMU не вылетает и экран не мерцает, загрузчик
+работает как ожидается. Когда вы закончите писать свой,
+он должен выглядеть так же.
+
+## Первая загрузка
+
+На данный момент наш загрузчик будет самой простой программой,
+известной человеку: бесконечным циклом. В NASM есть несколько
+специальных символов, которые мы можем использовать здесь:
+` и `$`.
+
+В NASM ` заменяется адресом **текущей инструкции** во время
+сборки. Аналогично, `$` заменяется адресом **предыдущей
+инструкции**.
+
+Прежде чем двигаться дальше, попробуйте реализовать этот простой
+загрузочный сектор самостоятельно. Посмотрите, сможете ли вы
+заставить его работать с магическим числом.
+
+Это означает, что для создания бесконечного цикла мы можем просто
+использовать простую инструкцию
+
+```asm
+jmp $
+```
+
+(или прыжок на текущую инструкцию) как нашу единственную
+инструкцию. Затем нам нужно будет заполнить остальную часть
+нашего загрузочного сектора и записать магическое число.
+
+## Сырые данные
+
+Чтобы заставить магическое число работать, нам нужно
+иметь возможность записывать сырые данные непосредственно в файл.
+В NASM есть несколько функций для этого:
+
+- `db` (Define Byte - Определить байт)
+- `dw` (Define Word - Определить слово)
+- `dd` (Define Doubleword - Определить двойное слово)
+- `dq` (Define Quadword - Определить четверное слово)
+
+Эти функции записывают сырые данные длиной 8,
+16, 32 и 64 бита соответственно. (Это также
+1, 2, 4 и 8 байт). Поскольку магическое число имеет длину
+16 бит, мы будем использовать `dw` для его определения:
+
+```asm
+dw 0xAA55
+```
+
+Теперь нам нужно заполнить остальную часть файла нулевыми
+байтами, чтобы убедиться, что наше магическое число является
+последними двумя байтами загрузочного сектора. Вы можете найти
+команду [times](https://nasm.us/doc/nasmdoc3.html) особенно
+полезной для этого. Если вы застряли, есть подробное объяснение
+в исходном файле, так что просто посмотрите там!
+
+Удачи!
+
 # Excalidraw Data
 
 ## Text Elements
@@ -105,6 +386,9 @@ dw 0xAA55
 Удачи!
  ^wUS8uZMn
 
+## Element Links
+n6Mc5E9r: [[guides/making a bootlo.excalidraw.md#test]]
+
 %%
 ## Drawing
 ```compressed-json
@@ -164,18 +448,18 @@ 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
 
-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
+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
 
-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
+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
 
-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
+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
 
-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
+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
 
-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
+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
 
-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
+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
 
-AA==
+BVeaoGXnOEQmq8nxJQOwIBgQDYBsg1QNcHAAHFDiRxY47oUEO+B4TuSL+SEheDQCziOgiItIFRM4Av0JBBgV0Z0G/oGjAQV4dgeRPGEGBqgzEj8WfU4FBDIAJ44EH9ComMAaJMIfUUyFmFgABhTQ4IGaGAB9CjeQAA==
 ```
 %%
