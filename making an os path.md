@@ -1,37 +1,25 @@
 Цель: создать небольшую ОС с ядром, памятью, процессами, файловой системой и драйверами.
 
-## Этап 1. Архитектура  компьютера
+# Этап 1. Архитектура  компьютера
 
-Книги:
-
+## Книги:
 - Computer Systems: A Programmer’s Perspective (CS:APP)
 - Computer Organization and Design — Patterson & Hennessy
 
-Изучить:
-
-Процессор
-
-- как CPU выполняет инструкции;
-- регистры;
-- режимы работы процессора;
-- privilege levels;
-- interrupts.
-
-Память
-
-Понять:
-
-CPU
-Cache
-
-RAM
-
- |
-
-Storage
-
-Темы:
-
+## Изучить:
+- ##  Процессор
+    -  как CPU выполняет инструкции;
+    - регистры;
+    - режимы работы процессора;
+    - privilege levels;
+    - interrupts.
+ - ### Память
+## Понять: 
+ - CPU
+ - Cache
+ - RAM
+ - Storage
+## Темы:
 - RAM;
 - virtual memory;
 - MMU;
