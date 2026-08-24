@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"c28ea650696d5974","x":-40,"y":-360,"width":136,"height":50,"type":"text","text":"input box"},
+		{"id":"33e53c890707016a","x":-42,"y":-260,"width":140,"height":60,"type":"text","text":"whitelister"},
+		{"id":"73e931f2e27246b7","x":-440,"y":-114,"width":250,"height":60,"type":"text","text":"cycvar  unloading only 1 item type"},
+		{"id":"146e7ab2b0fefc30","x":260,"y":-114,"width":250,"height":60,"type":"text","text":"splitter unloading only 1 item type"},
+		{"id":"e22800451f6e39fa","x":-266,"y":-230,"width":152,"height":54,"type":"file","file":"Pasted image 20260824140033.png"},
+		{"id":"a9ae5b93f5b32849","x":38,"y":25,"width":213,"height":75,"type":"file","file":"Pasted image 20260824140106.png"}
+	],
+	"edges":[
+		{"id":"346e202bb8ac9e2b","fromNode":"33e53c890707016a","fromSide":"bottom","toNode":"146e7ab2b0fefc30","toSide":"top","label":"chest hall"},
+		{"id":"a8c550f0dfdf0a91","fromNode":"33e53c890707016a","fromSide":"bottom","toNode":"73e931f2e27246b7","toSide":"top","label":"bulk"},
+		{"id":"ee9644a3b9a13223","fromNode":"73e931f2e27246b7","fromSide":"bottom","toNode":"33e53c890707016a","toSide":"bottom","label":"go back to the whitelister"},
+		{"id":"428d6b8fa62a85e3","fromNode":"146e7ab2b0fefc30","fromSide":"bottom","toNode":"33e53c890707016a","toSide":"bottom","label":"go back to the whitelister"},
+		{"id":"7f74d70f1f7b7c72","fromNode":"c28ea650696d5974","fromSide":"bottom","toNode":"33e53c890707016a","toSide":"top"}
+	]
+}
