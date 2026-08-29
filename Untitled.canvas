@@ -1,19 +1,30 @@
 {
 	"nodes":[
-		{"id":"c28ea650696d5974","x":-40,"y":-360,"width":136,"height":50,"type":"text","text":"input box"},
-		{"id":"33e53c890707016a","x":-42,"y":-260,"width":140,"height":60,"type":"text","text":"whitelister"},
-		{"id":"73e931f2e27246b7","x":-440,"y":-114,"width":250,"height":60,"type":"text","text":"cycvar  unloading only 1 item type"},
-		{"id":"146e7ab2b0fefc30","x":260,"y":-114,"width":250,"height":60,"type":"text","text":"splitter unloading only 1 item type"},
-		{"id":"e22800451f6e39fa","x":-312,"y":-247,"width":198,"height":71,"type":"file","file":"Pasted image 20260824140033.png"},
-		{"id":"a9ae5b93f5b32849","x":-220,"y":20,"width":213,"height":75,"type":"file","file":"Pasted image 20260824140106.png"},
-		{"id":"26f7fb15c8f869bb","x":159,"y":-247,"width":202,"height":71,"type":"file","file":"Pasted image 20260824140113.png"},
-		{"id":"28d130ea266ae73e","type":"file","file":"Pasted image 20260824140033.png","x":-71,"y":-460,"width":198,"height":71}
+		{"id":"c28ea650696d5974","type":"text","text":"input box","x":-40,"y":-360,"width":136,"height":50},
+		{"id":"33e53c890707016a","type":"text","text":"whitelister","x":-42,"y":-260,"width":140,"height":60},
+		{"id":"73e931f2e27246b7","type":"text","text":"cycvar  unloading only 1 item type","x":-440,"y":-114,"width":250,"height":60},
+		{"id":"146e7ab2b0fefc30","type":"text","text":"splitter unloading only 1 item type","x":260,"y":-114,"width":250,"height":60},
+		{"id":"e22800451f6e39fa","type":"file","file":"Pasted image 20260824140033.png","x":-312,"y":-247,"width":198,"height":71},
+		{"id":"a9ae5b93f5b32849","type":"file","file":"Pasted image 20260824140106.png","x":-220,"y":20,"width":213,"height":75},
+		{"id":"26f7fb15c8f869bb","type":"file","file":"Pasted image 20260824140113.png","x":159,"y":-247,"width":202,"height":71},
+		{"id":"28d130ea266ae73e","type":"file","file":"Pasted image 20260824140033.png","x":-71,"y":-460,"width":198,"height":71},
+		{"id":"d2459b1bd9c40ede","x":1420,"y":-155,"width":114,"height":50,"type":"text","text":"encoder"},
+		{"id":"e69088b5100d4ab0","x":1416,"y":-280,"width":123,"height":50,"type":"text","text":"chest hall"},
+		{"id":"83a165c00a47b9a9","x":1260,"y":-280,"width":120,"height":50,"type":"text","text":"Splitter"},
+		{"id":"6146786449863042","x":1120,"y":-160,"width":120,"height":60,"type":"text","text":"grouper"},
+		{"id":"005b1fd71537b798","x":1300,"y":100,"width":105,"height":50,"type":"text","text":"merger"},
+		{"id":"5bed074afbe3dd0f","x":1283,"y":0,"width":140,"height":50,"type":"text","text":"pair merger"}
 	],
 	"edges":[
 		{"id":"346e202bb8ac9e2b","fromNode":"33e53c890707016a","fromSide":"bottom","toNode":"146e7ab2b0fefc30","toSide":"top","label":"chest hall"},
 		{"id":"a8c550f0dfdf0a91","fromNode":"33e53c890707016a","fromSide":"bottom","toNode":"73e931f2e27246b7","toSide":"top","label":"bulk"},
 		{"id":"ee9644a3b9a13223","fromNode":"73e931f2e27246b7","fromSide":"bottom","toNode":"33e53c890707016a","toSide":"bottom","label":"go back to the whitelister"},
 		{"id":"428d6b8fa62a85e3","fromNode":"146e7ab2b0fefc30","fromSide":"bottom","toNode":"33e53c890707016a","toSide":"bottom","label":"go back to the whitelister"},
-		{"id":"7f74d70f1f7b7c72","fromNode":"c28ea650696d5974","fromSide":"bottom","toNode":"33e53c890707016a","toSide":"top"}
+		{"id":"7f74d70f1f7b7c72","fromNode":"c28ea650696d5974","fromSide":"bottom","toNode":"33e53c890707016a","toSide":"top"},
+		{"id":"ea690deff3182d35","fromNode":"83a165c00a47b9a9","fromSide":"left","toNode":"6146786449863042","toSide":"top"},
+		{"id":"4113815f52816f28","fromNode":"d2459b1bd9c40ede","fromSide":"top","toNode":"e69088b5100d4ab0","toSide":"bottom","label":"+ item code"},
+		{"id":"b4bb80026816a130","fromNode":"6146786449863042","fromSide":"right","toNode":"d2459b1bd9c40ede","toSide":"left"},
+		{"id":"97cf51bb8899e7ed","fromNode":"d2459b1bd9c40ede","fromSide":"left","toNode":"5bed074afbe3dd0f","toSide":"top","label":"bulk"},
+		{"id":"29c8f48866b7a266","fromNode":"5bed074afbe3dd0f","fromSide":"bottom","toNode":"005b1fd71537b798","toSide":"top"}
 	]
 }
