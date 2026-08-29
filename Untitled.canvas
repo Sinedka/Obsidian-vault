@@ -12,9 +12,10 @@
 		{"id":"e69088b5100d4ab0","x":1416,"y":-280,"width":123,"height":50,"type":"text","text":"chest hall"},
 		{"id":"83a165c00a47b9a9","x":1260,"y":-280,"width":120,"height":50,"type":"text","text":"Splitter"},
 		{"id":"6146786449863042","x":1120,"y":-160,"width":120,"height":60,"type":"text","text":"grouper"},
-		{"id":"5bed074afbe3dd0f","x":1280,"y":0,"width":140,"height":50,"type":"text","text":"pair merger"},
-		{"id":"005b1fd71537b798","x":1298,"y":100,"width":105,"height":50,"type":"text","text":"merger"},
-		{"id":"fff3153fc4531f68","x":1488,"y":50,"width":103,"height":50,"type":"text","text":"temp"}
+		{"id":"5bed074afbe3dd0f","x":1281,"y":-25,"width":140,"height":50,"type":"text","text":"pair merger"},
+		{"id":"fff3153fc4531f68","x":1460,"y":25,"width":103,"height":50,"type":"text","text":"temp"},
+		{"id":"64d650308032bf92","x":1580,"y":-75,"width":160,"height":50,"type":"text","text":"bulk grouper"},
+		{"id":"005b1fd71537b798","x":1299,"y":120,"width":105,"height":50,"type":"text","text":"merger"}
 	],
 	"edges":[
 		{"id":"346e202bb8ac9e2b","fromNode":"33e53c890707016a","fromSide":"bottom","toNode":"146e7ab2b0fefc30","toSide":"top","label":"chest hall"},
@@ -25,9 +26,12 @@
 		{"id":"ea690deff3182d35","fromNode":"83a165c00a47b9a9","fromSide":"left","toNode":"6146786449863042","toSide":"top"},
 		{"id":"4113815f52816f28","fromNode":"d2459b1bd9c40ede","fromSide":"top","toNode":"e69088b5100d4ab0","toSide":"bottom","label":"+ item code"},
 		{"id":"b4bb80026816a130","fromNode":"6146786449863042","fromSide":"right","toNode":"d2459b1bd9c40ede","toSide":"left"},
-		{"id":"97cf51bb8899e7ed","fromNode":"d2459b1bd9c40ede","fromSide":"left","toNode":"5bed074afbe3dd0f","toSide":"top","label":"bulk"},
 		{"id":"29c8f48866b7a266","fromNode":"5bed074afbe3dd0f","fromSide":"bottom","toNode":"005b1fd71537b798","toSide":"top"},
 		{"id":"9fed18fa6907fc35","fromNode":"005b1fd71537b798","fromSide":"left","toNode":"6146786449863042","toSide":"bottom","label":"partials"},
-		{"id":"baa2f130507a790a","fromNode":"5bed074afbe3dd0f","fromSide":"right","toNode":"fff3153fc4531f68","toSide":"top","label":"odd + code"}
+		{"id":"baa2f130507a790a","fromNode":"5bed074afbe3dd0f","fromSide":"right","toNode":"fff3153fc4531f68","toSide":"top","label":"odd + code"},
+		{"id":"e73788073f71002d","fromNode":"fff3153fc4531f68","fromSide":"bottom","toNode":"005b1fd71537b798","toSide":"top","label":"pair found"},
+		{"id":"8d809cfd4229f47e","fromNode":"d2459b1bd9c40ede","fromSide":"bottom","toNode":"5bed074afbe3dd0f","toSide":"top","label":"bulk"},
+		{"id":"4d0ab061f96ad9c0","fromNode":"005b1fd71537b798","fromSide":"right","toNode":"64d650308032bf92","toSide":"bottom","label":"full"},
+		{"id":"bb8dcd6efe6f1d1c","fromNode":"64d650308032bf92","fromSide":"top","toNode":"d2459b1bd9c40ede","toSide":"right"}
 	]
 }
