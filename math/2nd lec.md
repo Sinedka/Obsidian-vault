@@ -6,5 +6,8 @@ $$
 \mathbb RU = \{-\infty\} \cup \{+\infty\} \cup \{\infty\} \cup \mathbb R
 $$
 $$
-\text{если } \forall R>0\; \exists :\forall n > N
+\text{если } \forall R>0\; \exists \; N\in \mathbb N:\forall n > N\;\;|x_n|>R
+$$
+$$
+\text{если } \{x_n\} -\text{}
 $$
