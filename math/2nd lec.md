@@ -9,5 +9,8 @@ $$
 \text{если } \forall R>0\; \exists \; N\in \mathbb N:\forall n > N\;\;|x_n|>R
 $$
 $$
-\text{если } \{x_n\} -\text{}
+\text{если } \{x_n\} -\text{ББП} \Rightarrow \{\frac{1}{x_n}\}-\text{БМП} 
+$$
+$$
+\text{если } \{\frac{1}{x_n}\} -\text{БМП} \Rightarrow \{x_n\}-\text{ББП} 
 $$
